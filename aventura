@@ -1,0 +1,43 @@
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+    
+   
+const passos = document.querySelectorAll('.passo');
+    const botoes = document.querySelectorAll('.btn-proximo');
+
+    botoes.
+
+    b
+forEach(button => {
+        button.addEventListener('click', () => {
+            
+      
+const proximoPassoId = `passo-${button.getAttribute('data-proximo')}`;
+            const proximoPasso = document.getElementById(proximoPassoId);
+
+            
+
+            
+// Esconder todos os passos
+            passos.
+            pas
+
+  
+forEach(passo => passo.classList.remove('ativo'));
+
+            
+
+           
+// Mostrar o próximo passo
+            proximoPasso.
+            proximoPasso
+
+            
+classList.add('ativo');
+        });
+    });
+});
+
+        });
+    });
+}
